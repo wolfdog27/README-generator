@@ -1,6 +1,4 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-return `# ${data.title}
+# Pokemon
 
 Table of Contents: |
 ------------- |
@@ -13,31 +11,26 @@ Table of Contents: |
 [Questions](#questions)|
 
 ## Desciption
-/n ${data.description}
+/n this is about pokemon
 
 ##Installation
-/n ${data.installation}
+/n do it
 
 ##Usage
-/n ${data.usage}
+/n use it or lose it
 
 ##License
-/n ${data.license}
+/n no need
 
 ## Contributions
-/n ${data.contributions}
+/n undefined
 
 ## Tests
-/n ${data.tests}
+/n test them all
 
 ## Questions
-/n ${data.questions}
+/n whats up?
 
 
 
 
-`;
-}
-
-
-module.exports = generateMarkdown;
