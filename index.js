@@ -65,9 +65,22 @@ fs.writeFile(fileName, generateMarkdown(data), (err) => err)
 }
 
 // function to initialize program
-function init() {
+// function init() {
+// }
 
-}
+async function init() {
+    console.log("hi")
+    try {
+      const answers = await inquirer.prompt(questions);
+  
+      const generateMd = await generateMarkdown(answers);
+      await writeToFile(`${answers.title}.md`, answers);
+  
+      console.log("Successfully wrote to md!");
+    } catch(err) {
+      console.log(err);
+    }
+  }
 
 // function call to initialize program
 init();
