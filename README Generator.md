@@ -14,20 +14,21 @@ Table of Contents: |
 We created a README Generator from scratch using tools such as inquirer, fs, util, async functions, and more.
 
 # Installation
-you will need to install inquirer and util.  Or simply npm install
+npm install for all functions - you need inquirer and util
 
 # Usage
 Please use this for future projects!
 
 # License
-No need for a license
+None
 
 # Contribution
-My coffee helped with tonight's contributions
+My last cup of coffee!
 
 # Tests
-We aren't using tests on this project
+No tests needed
 
 # Questions
-Do you have any questions?
+Do you have any additional questions?
+If you have any additional questions please reach me at (https://github.com/wolfdog27/) /n or e-mail me at kylenicholasanderson@gmail.com
 
