@@ -2,9 +2,11 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require("util");
 
+// connect to generateMarkdown js
+const generateMarkdown = require("./utils/generateMarkdown");
 
-
-inquirer.prompt([
+// array of questions for user
+const questions = [
     {
         type:"input",
         message: "What is the Title of your project?",
@@ -60,18 +62,11 @@ inquirer.prompt([
         message: "What is your e-mail?",
         name: "E-mail"
     }
-]).then (function(answers){
-    console.log(answers);
-})
-
-
-// array of questions for user
-const questions = [
-
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+fs.writeFile(fileName, generateMarkdown(data), (err) => err)
 }
 
 // function to initialize program
