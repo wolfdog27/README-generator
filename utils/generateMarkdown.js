@@ -12,26 +12,26 @@ Table of Contents: |
 [Tests](#tests)|
 [Questions](#questions)|
 
-##Desciption
-/n $(data.description)
+## Desciption
+/n ${data.description{
 
 ##Installation
-/n $(data.installation)
+/n ${data.installation}
 
 ##Usage
-/n $(data.usage)
+/n ${data.usage}
 
 ##License
-/n $(data.license)
+/n ${data.license}
 
-##Contributions
-/n $(data.contributions)
+## Contributions
+/n ${data.contributions}
 
-##Tests
-/n $(data.tests)
+## Tests
+/n ${data.tests}
 
-##Questions
-/n $(data.questions)
+## Questions
+/n ${data.questions}
 
 
 
