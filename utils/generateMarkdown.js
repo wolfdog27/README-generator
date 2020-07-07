@@ -32,7 +32,7 @@ ${data.tests}
 
 # Questions
 ${data.questions}
-If you have any additional questions please reach me at (https://github.com/${data.gitHub}/) /n or e-mail me at ${data.email}
+If you have any additional questions please reach me at (https://github.com/${data.gitHub}/) or e-mail me at ${data.email}
 
 `;
 }
